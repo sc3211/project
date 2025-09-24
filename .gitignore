@@ -1,0 +1,41 @@
+# Xcode user data & state
+xcuserdata/
+*.xcuserstate
+
+# Derived data / intermediates
+DerivedData/
+build/
+Build/
+*.o
+*.obj
+*.dSYM/
+*.pch
+*.ipa
+*.app
+*.exe
+*.dll
+*.so
+*.dylib
+
+# CMake cache & build dirs (if you add any locally)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*/CMakeFiles/
+*/CMakeCache.txt
+
+# macOS noise
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Logs
+*.log
+
+# If you VENDOR JSBSim locally (optional):
+#   - Keep headers, consider excluding big binaries to keep repo slim.
+#   - Comment out the next line if you WANT to commit the static lib.
+# Libraries/libJSBSim.a
