@@ -1,4 +1,4 @@
-// project.hpp — clean header
+// project.hpp — new header :') 
 // Created by Samuel Atha on 9/23/25
 
 #pragma once
@@ -17,7 +17,7 @@ namespace JSBSim { class FGFDMExec; }
 class FlightSim {
 public:
   // @param root_dir   Absolute path to the JSBSim data root (contains aircraft/, engine/, systems/)
-  // @param model_xml  Path (relative to root_dir) to an aircraft XML (e.g., "aircraft/c172/c172.xml")
+  // @param model_xml  Path (relative to root_dir) to an aircraft XML 
   FlightSim(const std::string& root_dir, const std::string& model_xml);
   ~FlightSim();
 
